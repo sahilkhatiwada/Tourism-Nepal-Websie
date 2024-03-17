@@ -1,0 +1,14 @@
+.navbar-light .navbar-toggler {
+  color: #6acdf7;
+  border-color: #6acdf7;
+}
+
+.navbar-toggler span:nth-child(2) {
+  width: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggler span {
+    display: none;
+  }
+}
